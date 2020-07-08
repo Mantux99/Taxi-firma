@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+            "email": "mantas6399@gmail.com",
+            "password": "$2y$10$mY4Aou14oEY81T1WTu8QQ.vW3qaSUiXlna4bthVXnuEL23.LvAD.K",
+            "role": 1
+        },
+        {
+            "role": 0,
+            "password": "$2y$10$FTVGGhIuPS0cbuk\/4KozMOQkQzUA\/j1rOpGtFnSDKc0tLG\/oBweo.",
+            "email": "test@test.lt"
+        },
+        {
+            "password": "$2y$10$GcwsGe7vwkQT5EYT\/a2IfuBmNobn0RoAjW3Hism5l9jshfi1EK7QK",
+            "email": "lolikas@gmail.com",
+            "role": "1"
+        }
+    ],
+    "drinks": {
+        "14": {
+            "name": "000",
+            "strength": 17,
+            "volume": 500,
+            "quantity": 1,
+            "price": 12,
+            "image": "https:\/\/d31odqew6tipxn.cloudfront.net\/images\/0000\/0005\/5618\/f9af14416bb84852e\/large\/GEDIMINO-WHITE-TASTE-bottle.jpg",
+            "id": 14
+        },
+        "15": {
+            "name": "Vilnius",
+            "strength": 5,
+            "volume": 24,
+            "quantity": 4,
+            "price": 17,
+            "image": "https:\/\/d31odqew6tipxn.cloudfront.net\/images\/0000\/0005\/5618\/f9af14416bb84852e\/large\/GEDIMINO-WHITE-TASTE-bottle.jpg"
+        }
+    },
+    "items": []
+}

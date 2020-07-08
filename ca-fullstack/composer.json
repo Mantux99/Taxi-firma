@@ -1,0 +1,10 @@
+//Composerio pagalba naudojames Autoload mechanizmu, kad automatiskai suloadintu musu klases, kuriu yra daug.
+{
+    "name": "Phpsualum",
+    "autoload": {
+        "psr-4":{
+            "App\\": "app/classes",
+            "Core\\": "core/classes"
+        }
+    }
+}
