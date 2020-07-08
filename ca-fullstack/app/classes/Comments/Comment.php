@@ -17,14 +17,14 @@ class Comment extends DataHolder
         return $this->id ?? null;
     }
 
-    protected function setText($comment)
+    protected function setText($text)
     {
-        $this->comment = $comment;
+        $this->text = $text;
     }
 
     protected function getText()
     {
-        return $this->comment ?? null;
+        return $this->text ?? null;
     }
 
     protected function setDate($date)

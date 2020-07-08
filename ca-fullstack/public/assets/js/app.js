@@ -6,19 +6,13 @@ const commentForm = document.querySelector('.comment_form');
 if (commentForm) {
 	commentForm.addEventListener('submit', e => {
 		e.preventDefault();
-		const object = {name: 'Mantas', id: '1', comment: event.target.comment.value}
-		addComment(object);
-		
-		console.log(event.target.comment.value)
+		addComment(e);
 	});
 }
 
 fetch('../../api/get.php')
 	.then(res => res.json())
-	.then(data => {console.log(data)
-		createTable(data)
-	});
-	
+	.then(data => createTable(data));
 
 function createTable(data) {
 	const table = document.createElement('table');
@@ -34,7 +28,7 @@ function createTable(data) {
 	}
 	thead.append(tr);
 	table.append(thead);
-//kiekvienam json objektui kiekvienam tablui sukuria eilute ir appendina i ja
+
 	data.forEach(item => {
 		table.append(generateTableRow(item));
 	});

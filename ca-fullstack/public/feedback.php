@@ -36,8 +36,8 @@ function fail(&$form, $input)
 <body>
     <?php print $navigation->render(); ?>
     <main class="main">
-
-        <!-- <h1>Feedback</h1> -->
+    <div class="form">
+        <h1>Feedback</h1>
         <div class="comments-block"></div>
         <div class="add-comment-block">
             <?php if (App::$session->getUser()) : ?>
@@ -45,6 +45,7 @@ function fail(&$form, $input)
             <?php else : ?>
                 <span>Want to write a comment? <a href="register.php">Register</a></span>
             <?php endif ?>
+        </div>
         </div>
     </main>
     <footer>

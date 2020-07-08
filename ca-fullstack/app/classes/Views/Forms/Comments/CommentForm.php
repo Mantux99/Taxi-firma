@@ -14,7 +14,7 @@ class CommentForm extends \Core\Views\Form
              ],
              'title' => 'Comment',
              'fields' => [
-                 'comment' => [
+                 'text' => [
                      'type' => 'textarea',
                      'validators' => [
                          'validate_user_logged_in',

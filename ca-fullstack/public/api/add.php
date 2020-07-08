@@ -19,7 +19,7 @@ $form->validate();
 function form_success($form, $input)
 {
     $comment = new Comment([
-        'text' => $input['comment'],
+        'text' => $input['text'],
         'date' => date('Y-m-d'),
         'uid' => App::$session->getUser()->id,
     ]);
@@ -27,7 +27,7 @@ function form_success($form, $input)
     Model::insert($comment);
 
     $comment->name = (UsersModel::find($comment->uid))->name;
-    print json_encode($comment);
+    print (json_encode($comment));
     
 }
 

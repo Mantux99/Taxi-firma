@@ -22,18 +22,18 @@ $navigation = new \App\Views\Navigation();
             <div class="container">
                 <div class="card">
                     <div class="image1"></div>
-                    <h1>Personal trainer</h1>
-                    <p>With personal training, the focus is you. We design a program specific to your health and fitness goal and work with you to achieve them. Our trainers are proffesional specialists who will help you to reach the best results.</p>
+                    <h1>Uber</h1>
+                    <p>Download our uber application to get a taxi everywhere you need. We offering best value and price each day.</p>
                 </div>
                 <div class="card">
                     <div class="image2"></div>
-                    <h1>Group lesson</h1>
-                    <p>Group fitness is a great way to get a workout in without having to think or plan. Each class is structured with a warm-up, a balanced workout and a cool-down. We are offering the best price and quality.</p>
+                    <h1>Express</h1>
+                    <p>Only our company has proffesional drivers who can drive as fast as possible. With Express taxi you will be lifted to any place you need in a shortest time.</p>
                 </div>
                 <div class="card">
                     <div class="image3"></div>
-                    <h1>Yoga</h1>
-                    <p>Yoga Journal is your number one source for in-depth yoga pose instruction, yoga sequences for beginners to advanced practitioners, guided meditations to keep your day stress-free.</p>
+                    <h1>Limousine</h1>
+                    <p>We have highest class limousines, which can be rented for special events like weddings or school parties. Check our prices right now.</p>
                 </div>
             </div>
         </section>

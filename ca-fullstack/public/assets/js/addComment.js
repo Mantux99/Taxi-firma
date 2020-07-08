@@ -2,14 +2,13 @@ import { generateTableRow } from './generateTableRow.js';
 
 export function addComment(e) {
 	const formData = new FormData(e.target);
-	console.log(formData)
+
 	fetch(`../../api/add.php`, {
 		method: 'POST',
-		body: JSON.stringify(formData),
+		body: formData,
 	})
 		.then(res => res.json())
 		.then(data => {
-			console.log(data)
 			if (!data.fields) {
 				const table = document.querySelector('.comment_table');
 				table.append(generateTableRow(data));

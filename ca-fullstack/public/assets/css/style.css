@@ -37,7 +37,7 @@ nav > div {
 /* Main */
 
 .background {
-  background-image: url(../images/gym1.jpg);
+  background-image: url(../images/taxi1.jpg);
   height: 300px;
   width: 100%;
   background-position: center;
@@ -65,13 +65,13 @@ section {
 }
 
 .image1 {
-  background-image: url(../images/personal-trainer.jpg);
+  background-image: url(../images/uber.jpg);
 }
 .image2 {
-  background-image: url(../images/group-lesson.jpg);
+  background-image: url(../images/express.png);
 }
 .image3 {
-  background-image: url(../images/yoga.jpg);
+  background-image: url(../images/limousine.jpg);
 }
 
 .image1,
@@ -103,7 +103,7 @@ footer {
 }
 
 span {
-  color: white;
+  color: rgb(151, 151, 151)68, 49, 52);
   font-size: 25px;
 }
 
@@ -127,7 +127,7 @@ span {
   border: 3px solid rgb(141, 140, 140);
   border-radius: 10px;
   width: 30%;
-  height: 100%;
+  height: auto%;
   text-align: center;
 }
 input {
@@ -169,7 +169,7 @@ body {
   );
 }
 
-.catalogue {
+/* .catalogue {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
@@ -207,7 +207,7 @@ body {
   height: 100px;
   width: 80px;
   object-fit: scale-down;
-}
+} */
 
 .product button {
   background-color: rgb(255, 255, 255);
@@ -241,6 +241,20 @@ textarea{
   width: 300px;
   height: 100px;
 }
+
+.comments-block{
+  max-width: 800px;
+}
+
+table{
+  margin: 0 auto;
+}
+
+table, tr, td, th{
+  border: 2px solid rgb(21, 47, 163);
+  border-collapse: collapse;
+}
+
 /* Mobile first */
 
 @media only screen and (max-width: 400px){
